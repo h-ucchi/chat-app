@@ -10,7 +10,7 @@
 | email              | string | null: false |
 | encrypted_password | string | null: false |
 
-## Association
+### Association
 
 - has many :room_users
 - has_many :rooms, through: :room_users
